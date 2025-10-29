@@ -53,6 +53,8 @@ mkdir $2
 cd $2
 
 touch ec2 rds efs
+
+while executing -> bash -x 2-devops_profile.sh
 ==================================================================================================
 
 
@@ -85,7 +87,9 @@ echo "ENTER THE SECOND NUMBER"
 read num2
 
 sum=$(( num1 + num2 ))
-echo "THE SUM OF 2 NUMEBRS = $sum"
+echo "THE SUM OF 2 NUMEBRS = $sum" 
+
+while executing -> bash -x sum.sh 
 ================================================================================================== 
 
 
@@ -96,6 +100,8 @@ num1=$1
 num2=$2
 sum=$(( num1 + num2 ))
 echo "THE SUM OF 2 NUMEBRS = $sum"
+
+while executing -> bash -x 3-sum.sh 2 5
 ================================================================================================== 
 ==================================================
 
