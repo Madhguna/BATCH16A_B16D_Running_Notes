@@ -38,7 +38,7 @@ snapshot
 
 ========================
 Server1:
-mkfs.ext4 /dev/xvdf
+mkfs -t ext4 /dev/xvdf
 mkdir /madhu
 mount -t ext4 /dev/xvdf /madhu
 
