@@ -119,7 +119,7 @@ MIN CAPACITY
 MAX CAPCITY 
 DESIRED CAPACITY 
 
-& TARGET TRACKING POLICY ON AVG CPU UTILIZATION 
+& TARGET TRACKING POLICY ON AVG CPU UTILIZATION while creating ASG
 
 Launch Intances & execute this commands in booting mode while launching instances
 
