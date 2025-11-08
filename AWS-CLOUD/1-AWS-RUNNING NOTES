@@ -121,6 +121,14 @@ DESIRED CAPACITY
 
 & TARGET TRACKING POLICY ON AVG CPU UTILIZATION 
 
+Launch Intances & execute this commands in booting mode while launching instances
+
+#!/bin/bash
+
+yum install httpd -y
+systemctl start httpd
+systemctl enable httpd
+echo ' THIS IS MY GOOGLE WEB PAGE' > /var/www/html/index.html
 
 ==========================================================================================
 DATE: 9 JULY 
